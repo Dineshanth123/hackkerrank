@@ -14,10 +14,10 @@ for i in range(u+1):
     l.append(s)
 x=l[0]+l[-1]
 a=len(l)-1
-sum=0
+add=0
 for p in range(1,a):
-    sum=sum+l[p]
-y=round(sum,4)
+    add=add+l[p]
+y=round(add,4)
 res=(h/2)*(x+(2*(y)))
 print("the result is :",res)
    
